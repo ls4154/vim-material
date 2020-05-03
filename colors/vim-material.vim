@@ -24,7 +24,7 @@ let s:gui.foreground = { 'dark': '#ECEFF1', 'light': '#666666', 'palenight': '#A
 let s:gui.none       = { 'dark': 'NONE',    'light': 'NONE',    'palenight': 'NONE'   , 'oceanic': 'NONE'     }
 let s:gui.selection  = { 'dark': '#455A64', 'light': '#CCEAE7', 'palenight': '#434A6C', 'oceanic': '#292D3E'  }
 let s:gui.line       = { 'dark': '#212121', 'light': '#EAEFF0', 'palenight': '#191919', 'oceanic': '#191919'  }
-let s:gui.comment    = { 'dark': '#5D818E', 'light': '#90A4AE', 'palenight': '#676E95', 'oceanic': '#525975'  }
+let s:gui.comment    = { 'dark': '#8DA6AF', 'light': '#90A4AE', 'palenight': '#676E95', 'oceanic': '#525975'  }
 
 let s:gui.red          = { 'dark': '#FF5370', 'light': '#E53935', 'palenight': '#FF5370', 'oceanic': '#FF5370'  }
 let s:gui.dark_red     = { 'dark': '#B71C1C', 'light': '#E53935', 'palenight': '#FF5370', 'oceanic': '#FF5370'  }
@@ -135,7 +135,7 @@ call s:hi("Constant",    s:gui.pink,       "",               "", "", "")
 call s:hi("Type",        s:gui.yellow,     "",               "", "", "none")
 call s:hi("Structure",   s:gui.purple,     "",               "", "", "none")
 call s:hi("Define",      s:gui.cyan,       "",               "", "", "")
-call s:hi("Macro",       s:gui.pale_blue,     "",               "", "", "")
+call s:hi("Macro",       s:gui.pale_blue,  "",               "", "", "")
 call s:hi("Statement",   s:gui.cyan,       "",               "", "", "none")
 call s:hi("Function",    s:gui.blue,       "",               "", "", "")
 call s:hi("Conditional", s:gui.cyan,       "",               "", "", "")
