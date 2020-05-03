@@ -234,3 +234,14 @@ call s:hi("xmlTag",     s:gui.cyan,   "", "", "", "")
 call s:hi("xmlEndTag",  s:gui.cyan,   "", "", "", "")
 call s:hi("xmlTagName", s:gui.red,    "", "", "", "")
 call s:hi("xmlAttrib",  s:gui.yellow, "", "", "", "")
+
+" vim-lsp
+call s:hi("LspErrorText",            s:gui.red,        s:gui.none, "", "", "reverse")
+call s:hi("LspWarningText",          s:gui.orange,     s:gui.none, "", "", "reverse")
+call s:hi("LspInformationText",      s:gui.foreground, s:gui.none, "", "", "reverse")
+call s:hi("LspHintText",             s:gui.foreground, s:gui.none, "", "", "reverse")
+
+call s:hi("LspErrorHighlight",       s:gui.red,        s:gui.none, "", "", "underline")
+call s:hi("LspWarningHighlight",     s:gui.orange,     s:gui.none, "", "", "underline")
+call s:hi("LspInformationHighlight", s:gui.foreground, s:gui.none, "", "", "underline")
+call s:hi("LspHintHighlight",        s:gui.foreground, s:gui.none, "", "", "underline")
